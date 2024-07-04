@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noita</title>
+	<style>
+		/* добавляем стили для iframe */
+		iframe {
+			border: none; /* убираем рамку вокруг iframe */
+			border-radius: 10px; /* добавляем скругленные углы */
+			box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* добавляем тень */
+			width: 800px; /* ширина iframe */
+			height: 603px; /* высота iframe */
+			margin: 60px auto; /* добавляем отступы */
+		}
+		
+		/* добавляем стили для контейнера */
+		.video-container {
+			width: 800px; /* ширина контейнера */
+			margin: 0 auto; /* центрируем контейнер */
+			text-align: center; /* центрируем содержимое контейнера */
+		}
+		
+		/* добавляем стили для тела страницы */
+		body {
+			background-color: #000; /* делаем фон чёрным */
+		}
+		
+		/* добавляем стили для надписи */
+		.video-title {
+			font-size: 24px; /* размер шрифта */
+			color: #fff; /* цвет текста */
+			margin-bottom: 20px; /* отступ снизу */
+		}
+	</style>
+</head>
+<body>
+	<!-- добавляем контейнер для iframe -->
+	<div class="video-container">
+		<h2 class="video-title">I love Noita</h2>
+		<iframe 
+			src="https://www.youtube.com/embed/agkPY13UO04" 
+			title="РИКРОЛЛ — ИСТОРИЯ МЕМА" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			referrerpolicy="strict-origin-when-cross-origin" 
+			allowfullscreen>
+		</iframe>
+	</div>
+</body>
+</html>
